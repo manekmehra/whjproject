@@ -50,6 +50,7 @@ function draw() {
 for (var i = 0; i<boxes.length;i++){
     boxes[i].display()
 }
+    Engine.update(engine)
 }
  
 
